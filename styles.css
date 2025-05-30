@@ -306,6 +306,7 @@ h1 {
 @media (max-width: 950px) {
     .team {
         padding: 0;
+        height: 80vh;
     }
     .team .container {
         flex-direction: row;
