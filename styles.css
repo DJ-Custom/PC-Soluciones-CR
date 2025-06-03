@@ -313,7 +313,7 @@ h1 {
     color: var(--third-color);
     text-shadow: #c0c2c1 0 0 5px;
 }
-.team .container .team-member button {
+.team .container .team-member a {
     font-size: 1.2em;
     color: #023a03;
     background-color: var(--third-color);
@@ -326,7 +326,7 @@ h1 {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.team .container .team-member button:hover {
+.team .container .team-member a:hover {
     color: #023a03;
     background-color: var(--third-color);
     font-family: Arial, Helvetica, sans-serif;
@@ -343,7 +343,7 @@ h1 {
     font-size: 4em;
     margin-bottom: 20px;
     color: #ffffff;
-    text-shadow: #264730 6px 6px 15px;
+    text-shadow: #16304b 6px 6px 15px;
 }
 
 @media (max-width: 950px) {
@@ -373,8 +373,11 @@ h1 {
     .team-member p {
         font-size: 10px;
     }
-    .team .container .team-member button {
-    font-size: 10px;
+    .team .container .team-member a {
+    width: 100%;
+    font-weight: bold;
+    font-size: 8px;
+    margin: 0;
     margin-top: 10px;
     box-shadow: #363636 3px 3px 4px;
     padding: 4px 12px;
