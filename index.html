@@ -43,7 +43,7 @@
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#about">Acerca</a></li>
                 <li><a href="#team">Equipo</a></li>
-                <li><a href="#contact">Contactanos</a></li>
+                <li><a href="#contact">Contáctanos</a></li>
             </ul>
         </nav>
     </header>
@@ -51,7 +51,7 @@
         <section class="home" id="home">
             <h1>PC Soluciones C.R</h1>
             <a class="btn-home" id="btn-home" href="#contact">
-                Descubre Más <i class="fas fa-arrow-right"></i>
+                Contáctanos <i class="fas fa-arrow-right"></i>
             </a>
         </section>
 
@@ -70,6 +70,7 @@
         
         <section class="about" id="about">
         <div class="container">
+            <img src="/assets/Imagenes/Logo.png" alt="Logo de PC Soluciones">
             <h2>Acerca de Nosotros</h2>
             <h3>Visión</h3>
             <p>Nuestra misión es proporcionar un servicio excepcional y soluciones innovadoras que ayuden a nuestros clientes a alcanzar sus objetivos tecnológicos.</p>
@@ -85,20 +86,20 @@
         <div class="container">
             <div class="team-member">
                 <img src="/assets/Imagenes/icon-7797704_640.png" alt="Miembro del equipo 1">
-                <h3>Juan Pérez</h3>
+                <h3 class="nombre">Juan Pérez</h3>
                 <p>Especialista en Hardware</p>
                 <button><i class="fab fa-whatsapp" href=""> </i> Contáctame</button>
             </div>
             <div class="team-member">
                 <img src="/assets/Imagenes/icon-7797704_640.png" alt="Miembro del equipo 2">
-                <h3>María López</h3>
+                <h3 class="nombre">María López</h3>
                 <p>Desarrolladora de Software</p>
                                 <button><i class="fab fa-whatsapp" href=""> </i> Contáctame</button>
 
             </div>
             <div class="team-member">
                 <img src="/assets/Imagenes/icon-7797704_640.png" alt="Miembro del equipo 3">
-                <h3>Carlos García</h3>
+                <h3 class="nombre">Carlos García</h3>
                 <p>Administrador de Sistemas</p>
                                 <button><i class="fab fa-whatsapp" href=""> </i> Contáctame</button>
 
@@ -109,7 +110,7 @@
 
 
         <section class="contact" id="contact">
-            <form action="">
+            <form action="https://formsubmit.co/maria.corella@pcsoluciona.com" method="POST">
                 <h2>Formulario</h2>
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" placeholder="ej: Juan Miguel" required>
@@ -120,21 +121,32 @@
                 <label for="message">Mensaje:</label>
                 <textarea id="message" name="message" rows="4"placeholder="" required></textarea>
                 <input class="enviar" type="submit" value="Enviar">
-                <p class="privacy-policy">Al enviar este formulario, aceptas nuestra <a href="#">política de privacidad</a>.</p>
+                <p class="privacy-policy">Al enviar este formulario, aceptas nuestra <a href="/política-de-privacidad.html">política de privacidad</a>.</p>
             </form>
         </section>
 
 
 
         <footer>
-            <div class="footer-content">
-                <p>&copy; 2023 PC Soluciones C.R. Todos los derechos reservados.</p>
+
+            <div class="footer-contact">
+                <h3>Contactos</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:maria.corella@pcsoluciona.com">maria.corella@pcsoluciona.com</a></li>
+                    <li><i class="fas fa-user"></i> María Corella: <a href="tel:+50661028671">6102-8671</a></li>
+                    <li><i class="fas fa-user"></i> Leonidas Espinoza: <a href="tel:+50663127456">6312-7456</a></li>
+                    <li><i class="fas fa-user"></i> Ingrid Villalobos: <a href="tel:+50662809476">6280-9476</a></li>
+                    <li><i class="fas fa-building"></i> Pc Soluciones Oficinas: <a href="tel:+50647037305">4703-7305</a></li>
+                </ul>
+                            <div class="footer-content">
                 <div class="socials">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/p/PC-Soluciones-CR-100078155144417/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/pcsolucionescr/"><i class="fab fa-instagram"></i></a>
+                    <!-- <a href="maria.corella@pcsoluciona.com"><i class="fab fa-g-mail"></i></a> -->
                 </div>
+            </div>
+                <p class="derechos">&copy; 2023 PC Soluciones C.R. Todos los derechos reservados.</p>
+
             </div>
         </footer>
     </main>
