@@ -46,10 +46,13 @@ header {
 /* Navigation Styles *
 ===================================================== */
 nav {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
+    background-color: hsla(113.64705882352966, 0%, 0%, 1);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1746 1746' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"), radial-gradient(circle at 0% 99%, hsla(113.6470588235295, 0%, 0%, 1) 0%, transparent 67%), radial-gradient(circle at 46% 94%, hsla(219.70588235294125, 100%, 50%, 1) 0%, transparent 81%), radial-gradient(circle at 89% 8%, hsla(114.00399600194103, 0%, 0%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(206.02877786555945, 52%, 17%, 1) 0%, transparent 150%), radial-gradient(circle at 93% 95%, hsla(289.9038461538462, 0%, 0%, 1) 0%, transparent 66%), radial-gradient(circle at 89% 8%, hsla(0, 0%, 0%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(54.999999999999936, 0%, 0%, 1) 0%, transparent 150%);
+    background-blend-mode: overlay, normal, normal, normal, normal, normal, normal, normal;
     color: white;
     height: 8vh;
-}
+            }
 nav ul {
     list-style: none;
     padding: 0;
@@ -180,7 +183,10 @@ h1 {
 ===================================================== */
 .sections {
     height: 5vh;
-    background-color:  var(--secondary-color);
+    /* background-color:  var(--secondary-color); */
+        background-color: hsla(113.64705882352966, 0%, 0%, 1);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1746 1746' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"), radial-gradient(circle at 0% 99%, hsla(113.6470588235295, 0%, 0%, 1) 0%, transparent 67%), radial-gradient(circle at 46% 94%, hsla(219.70588235294125, 100%, 50%, 1) 0%, transparent 81%), radial-gradient(circle at 89% 8%, hsla(114.00399600194103, 0%, 0%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(206.02877786555945, 52%, 17%, 1) 0%, transparent 150%), radial-gradient(circle at 93% 95%, hsla(289.9038461538462, 0%, 0%, 1) 0%, transparent 66%), radial-gradient(circle at 89% 8%, hsla(0, 0%, 0%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(54.999999999999936, 0%, 0%, 1) 0%, transparent 150%);
+    background-blend-mode: overlay, normal, normal, normal, normal, normal, normal, normal;
 }
 .sections ul {
     list-style: none;
@@ -193,7 +199,7 @@ h1 {
 .sections ul li {
 
     display: inline;
-    margin: 0 20px;
+    margin: 0 60px;
     position: relative;
 }
 .sections ul li a{
@@ -306,7 +312,7 @@ h1 {
     margin: 50px;
     text-align: center;
     width: 300px;
-    box-shadow: 6px 6px 15px rgba(39, 39, 39, 0.9);
+    box-shadow: 6px 6px 15px rgba(14, 13, 32, 0.9);
 }
 .team .container .team-member h3 {
     font-size: 1.5em;
@@ -318,6 +324,7 @@ h1 {
     color: #023a03;
     background-color: var(--third-color);
     margin-top: 10px;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #023a03;
     box-shadow: #363636 3px 3px 4px;
@@ -519,7 +526,10 @@ h1 {
 ===================================================== */
 
 footer {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
+    background-color: hsla(113.64705882352966, 0%, 0%, 1);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1746 1746' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"), radial-gradient(circle at 0% 99%, hsla(113.6470588235295, 0%, 0%, 1) 0%, transparent 67%), radial-gradient(circle at 46% 94%, hsla(219.70588235294125, 100%, 50%, 1) 0%, transparent 81%), radial-gradient(circle at 89% 8%, hsla(114.00399600194103, 0%, 0%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(206.02877786555945, 52%, 17%, 1) 0%, transparent 150%), radial-gradient(circle at 93% 95%, hsla(289.9038461538462, 0%, 0%, 1) 0%, transparent 66%), radial-gradient(circle at 89% 8%, hsla(0, 0%, 0%, 1) 0%, transparent 150%), radial-gradient(circle at 89% 8%, hsla(54.999999999999936, 0%, 0%, 1) 0%, transparent 150%);
+    background-blend-mode: overlay, normal, normal, normal, normal, normal, normal, normal;
     color: white;
     text-align: center;
     padding: 20px;
